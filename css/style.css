@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background:  white ;
+	color: #363639;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.count{
+	color: white;
+	display: flex;
+	margin: 100px;
+
+}
+
+.simply-section{
+	background:  #3498db ;
+	width: 180px;
+	height: 140px;
+	margin: 0 20px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.simply-amount{
+	display: block;
+	font-size: 50px;
+	font-weight: normal;
+	
+}
+.simple-word{
+	font-weight: 300;
+	font-size: 30px;
+}
+
+/* ? ----- PORTADA ----- */
+.presentation {
+	width: 100%;
+	background: white;
+	min-height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transition: .5s ease-out all;
+}
+
+.hiden.presentation{
+	transform: translateY(100%);
+}
+
+
+
+.presentation .header {
+	margin-bottom: 100px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.presentation .header .log {
+	font-size: 50px;
+	font-size: 900;
+	margin-bottom: 20px;
+}
+
+.portada .header .message {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+
+
+/* ? ----- MAIN ----- */
+main {
+	max-width: 1000px;
+	margin: auto;
+	width: 90%;
+	padding: 50px 0;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: left;
+}
+
+.social-media .btn-social-media {
+	padding: 15px 0;
+	display: inline-block;
+	min-width: 120px;
+	border-radius: 5px;
+	background:  #3498db ;
+	color: #fff;
+	font-size: 30px;
+	margin: 0 20px;
+	transition: .3s ease all;
+}
+
+.social-media .btn-social-media:hover {
+	box-shadow: 0px 0px 50px 10px rgba(0,0,0,.15);
+}
+.simply-countdown-inline{
+	background-color:  black;
+	color: red;
+}
